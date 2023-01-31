@@ -34,6 +34,7 @@ final class MainViewController: UIViewController {
         setupTextFields()
     }
     
+    // Setup text fields
     private func setupTextFields() {
         userTextField.delegate = self
         passwordTextField.delegate = self

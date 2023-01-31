@@ -99,7 +99,7 @@ final class MainViewController: UIViewController {
         }
     }
     
-    
+    // TODO: прописать изменение констрейнта
     @objc private func keyboardOn() {
         let safeAreaExists = view.safeAreaInsets.bottom != 0
         passwordTextField.bottomAnchor.constraint(
